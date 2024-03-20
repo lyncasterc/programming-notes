@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/pragmatic programmer.md",
+                "file": "Tips & Tricks/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/pragmatic programmer.md",
+                "file": "Tips & Tricks/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/pragmatic programmer.md",
+                "file": "Tips & Tricks/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/pragmatic programmer.md"
+                "file": "Tips & Tricks/Git.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   "active": "d9ac936db39c3d92",
   "lastOpenFiles": [
     "instaclone/refresh token auth system.md",
+    "books/pragmatic programmer.md",
     "instaclone/mention system.md",
     "instaclone/comments.md",
     "metronome-beat-thing/metronome.md",
@@ -185,7 +186,6 @@
     "Tips & Tricks/Git.md",
     "Tips & Tricks/JavaScript.md",
     "metronome-beat-thing",
-    "books/pragmatic programmer.md",
     "seccamv2/env-dev-setup.md",
     "instaclone",
     "open-source-contributions/Untitled.md",

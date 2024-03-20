@@ -27,3 +27,5 @@
 - it takes the changes of one commit and applies them to your current branch as a new commit
 ## resetting branch to previous commit or branch
 - `git reset --hard <branch-or-sha>`
+## publishing new branch to remote
+- `git push -u origin <branch-name>`
