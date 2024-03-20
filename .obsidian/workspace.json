@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "7d69093c2c115fda",
+    "type": "split",
+    "children": [
+      {
+        "id": "35cf31ec4d52e844",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9ac936db39c3d92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tips & Tricks/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "03a534f158cfc58f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a7ae94e6d84da8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61348400a6d8a93b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9269b0a27d66e66a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d97f7a224380cc8f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "c7727fcba8fbc5a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 286.5
+  },
+  "right": {
+    "id": "02cf76da6c549550",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1ccb37a406ebda8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b58a98c84f38acf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tips & Tricks/Git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "308b9d13eaede0e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tips & Tricks/Git.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9945d78dffe4cb81",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1e9ae95893ba0d93",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tips & Tricks/Git.md"
+              }
+            }
+          },
+          {
+            "id": "cea853b83dbe8708",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "9f62b756f697eb0c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d9ac936db39c3d92",
+  "lastOpenFiles": [
+    "instaclone/refresh token auth system.md",
+    "instaclone/comments.md",
+    "instaclone/mention system.md",
+    "open-source-contributions/responsively/feat-pinch-to-zoom.md",
+    "instaclone",
+    "open-source-contributions/Untitled.md",
+    "seccamv2/env-dev-setup.md",
+    "Untitled.md",
+    "seccamv2",
+    "Instaclone/5-add-post-features.md",
+    "Instaclone.md",
+    "Instaclone",
+    "open-source-contributions/responsively-app-test-profiles.md",
+    "chord-finder.md",
+    "get-requests.rest",
+    "boop.rest",
+    "boop.etst"
+  ]
+}

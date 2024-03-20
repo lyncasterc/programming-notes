@@ -1,0 +1,8 @@
+- comments belong to a post and a user (author). 
+- posts and users can have many comments. comments can only have one post and one author.
+- comments also have one optional parent comment.
+	- a comment is either a parent (root) comment or a child to one.
+- replies to comments that aren't parents aren't actually "replies". no need to keep track of replies in database
+	- only ever one level of nested comments. parent -> children
+- when a parent comment is deleted, their replies (all children comments) are deleted.
+- when a post is deleted, all its comments are deleted

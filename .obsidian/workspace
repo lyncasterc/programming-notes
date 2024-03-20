@@ -1,0 +1,146 @@
+{
+  "main": {
+    "id": "7d69093c2c115fda",
+    "type": "split",
+    "children": [
+      {
+        "id": "2103dc3aa4931c0c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "open-source-contributions/responsively-app-test-profiles.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "03a534f158cfc58f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a7ae94e6d84da8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61348400a6d8a93b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9269b0a27d66e66a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d97f7a224380cc8f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 286.5
+  },
+  "right": {
+    "id": "02cf76da6c549550",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1ccb37a406ebda8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b58a98c84f38acf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "open-source-contributions/responsively-app-test-profiles.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "308b9d13eaede0e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "open-source-contributions/responsively-app-test-profiles.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9945d78dffe4cb81",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1e9ae95893ba0d93",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "open-source-contributions/responsively-app-test-profiles.md"
+              }
+            }
+          },
+          {
+            "id": "cea853b83dbe8708",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 326.5,
+    "collapsed": true
+  },
+  "active": "2103dc3aa4931c0c",
+  "lastOpenFiles": [
+    "Instaclone.md",
+    "chord-finder.md",
+    "open-source-contributions/responsively-app-test-profiles.md"
+  ]
+}

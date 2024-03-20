@@ -1,0 +1,2 @@
+imp- you can access the value of a custom formik input (field.value) https://formik.org/docs/examples/instant-feedback
+	- I can use this to detect when a @ is typed? and then render the popup thing? in a custom formik input.

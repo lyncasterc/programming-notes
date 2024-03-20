@@ -1,0 +1,11 @@
+{
+  "workspaces:save-and-load": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
+  ]
+}
