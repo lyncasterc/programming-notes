@@ -1,0 +1,7 @@
+- [[JavaScript#setInterval]] -  can be used to create a metronome.
+- For any given BPM, the time interval between any two consecutive is constant. So we can calculate the milliseconds between when consecutive beats should play.
+- interval = 60000/BPM. (60,000 being 1000ms for a second, 60 seconds * 1000)
+	- ex: BPM is 120. 60000/120 = 500ms. So every 500ms, a beat should play, which would mean 120 beats play per 60,000 ms.
+	- we can further sub-divide this. In 4/4 time, 120BPM, a quarter plays every 500ms.
+		- so 8th note is 500/2 = 250ms. an 8th note plays every 250ms.
+		- 16th note is 500/4 = 125ms. a 16th note plays every 125ms.

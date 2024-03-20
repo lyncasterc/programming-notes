@@ -19,16 +19,11 @@
 	- if you have a reference to another commit, you can you always get back to it.
 	- So by making a new branch of off another, we are essentially creating a new pointer referencing the same commit. If something goes wrong, we can always reset to that reference.
 
-
 ### blackbelt merging
 - A branch name is a REFERENCE to a commit. It may as well be a commit.
 - So instead of using branches of save points, you can just use a commit SHA-1 to reset back to. ``git reset --hard 1234abcd``
-
-
-
 ## merging changes of a commit to your branch
 - `git cherry-pick <commit-sha>`
 - it takes the changes of one commit and applies them to your current branch as a new commit
-
 ## resetting branch to previous commit or branch
 - `git reset --hard <branch-or-sha>`

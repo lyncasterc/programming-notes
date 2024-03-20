@@ -33,7 +33,6 @@
 		- **also invalidating is a good idea for logging out too**
 		- or we could only store blacklisted tokens and make sure a refresh token isnt in that list. but still, storing stuff on server seems meh
 		- in-mem is faster (redis) but is lost if app restarts. database for long-term persistence
-
 ## Components
 ### Server-side
 - new refresh endpoint

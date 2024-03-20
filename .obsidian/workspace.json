@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips & Tricks/Git.md",
+                "file": "books/pragmatic programmer.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tips & Tricks/Git.md",
+                "file": "books/pragmatic programmer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tips & Tricks/Git.md",
+                "file": "books/pragmatic programmer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips & Tricks/Git.md"
+                "file": "books/pragmatic programmer.md"
               }
             }
           },
@@ -178,12 +178,17 @@
   "active": "d9ac936db39c3d92",
   "lastOpenFiles": [
     "instaclone/refresh token auth system.md",
-    "instaclone/comments.md",
     "instaclone/mention system.md",
+    "instaclone/comments.md",
+    "metronome-beat-thing/metronome.md",
     "open-source-contributions/responsively/feat-pinch-to-zoom.md",
+    "Tips & Tricks/Git.md",
+    "Tips & Tricks/JavaScript.md",
+    "metronome-beat-thing",
+    "books/pragmatic programmer.md",
+    "seccamv2/env-dev-setup.md",
     "instaclone",
     "open-source-contributions/Untitled.md",
-    "seccamv2/env-dev-setup.md",
     "Untitled.md",
     "seccamv2",
     "Instaclone/5-add-post-features.md",
