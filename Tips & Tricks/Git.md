@@ -29,3 +29,6 @@
 - `git reset --hard <branch-or-sha>`
 ## publishing new branch to remote
 - `git push -u origin <branch-name>`
+## skipping husky pre-push/pre-commit
+- add `--no-verify` flag.
+- ex: `git push --no-verify`
