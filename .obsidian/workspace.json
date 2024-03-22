@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips & Tricks/Git.md",
+                "file": "instaclone/socket/notifications.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tips & Tricks/Git.md",
+                "file": "instaclone/socket/notifications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tips & Tricks/Git.md",
+                "file": "instaclone/socket/notifications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips & Tricks/Git.md"
+                "file": "instaclone/socket/notifications.md"
               }
             }
           },
@@ -177,13 +177,16 @@
   },
   "active": "d9ac936db39c3d92",
   "lastOpenFiles": [
-    "instaclone/refresh token auth system.md",
-    "books/pragmatic programmer.md",
-    "instaclone/mention system.md",
     "instaclone/comments.md",
+    "instaclone/socket/notifications.md",
+    "instaclone/socket",
+    "instaclone/Untitled.md",
+    "instaclone/mention system.md",
+    "instaclone/refresh token auth system.md",
+    "Tips & Tricks/Git.md",
+    "books/pragmatic programmer.md",
     "metronome-beat-thing/metronome.md",
     "open-source-contributions/responsively/feat-pinch-to-zoom.md",
-    "Tips & Tricks/Git.md",
     "Tips & Tricks/JavaScript.md",
     "metronome-beat-thing",
     "seccamv2/env-dev-setup.md",
