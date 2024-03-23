@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d9ac936db39c3d92",
+            "id": "f1cd01bb18f23f0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "instaclone/socket/notifications.md",
+                "file": "books/pragmatic programmer.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "instaclone/socket/notifications.md",
+                "file": "books/pragmatic programmer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "instaclone/socket/notifications.md",
+                "file": "books/pragmatic programmer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "instaclone/socket/notifications.md"
+                "file": "books/pragmatic programmer.md"
               }
             }
           },
@@ -175,16 +175,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d9ac936db39c3d92",
+  "active": "f1cd01bb18f23f0f",
   "lastOpenFiles": [
-    "instaclone/comments.md",
     "instaclone/socket/notifications.md",
+    "books/pragmatic programmer.md",
+    "instaclone/mention system.md",
+    "instaclone/comments.md",
     "instaclone/socket",
     "instaclone/Untitled.md",
-    "instaclone/mention system.md",
     "instaclone/refresh token auth system.md",
     "Tips & Tricks/Git.md",
-    "books/pragmatic programmer.md",
     "metronome-beat-thing/metronome.md",
     "open-source-contributions/responsively/feat-pinch-to-zoom.md",
     "Tips & Tricks/JavaScript.md",

@@ -1,6 +1,6 @@
 ## notification
 - **type**: like | mention | comment | follow
-	- likeEntity: comment | post
+- **message**: string
 - **belongs to: User | Post**
 	- **user bio mention**  -> entity is user. links to the user profile
 	- **follow** -> links to user profile
@@ -8,6 +8,19 @@
 - **creator**: User
 - **recipient**: User
 - **hasBeenRead**: boolean
+### model
+- **type**: `like | mention | comment | follow`
+- **entityType**: `User | Post` (The direct entity that the notification is about/links to)
+	- - **user bio mention**: entity is user. links to the user profile
+	- **follow**:  links to user profile
+	- **post caption mention, comment mention or comment notification or like notification**: entity is post. all should link to the post. 
+- **entityId**: `string` (ID of the User or Post)
+- **contextType**: `photo | comment` (Defines the interaction context, if applicable)
+- **creatorId**: `string` (ID of the User who initiated the interaction)
+- **recipientId**: `string` (ID of the User receiving the notification)
+- **hasBeenRead**: `boolean`
+- **createdAt**: `Date`
+- **readAt**: `Date | null` (null if not read yet)
 ### types:
 - **like**
 	- **liking a post** - post creator gets the notification.
@@ -36,10 +49,10 @@
 - **user logs in/page refresh**
 	- client fetches unread notifications from server, updates store and displays the heart red dot and popover near the heart for all notifications (like: 1, follow:2, etc)
 	- user joins a socket room consisting of their own id. so each user is in a room of their own, listens for notifications.
-	- on notification message, client updates the store with the new count, shows red dot it not already showing, shows popover for that notification type with updated count
+	- on notification message, client updates the store with the new count, shows red dot it not already showing, shows popover for that notification type with updated count (likes: 3)
 ## server
 - stores user connections
 - listens for new connections verifies access token, drops any invalid connection
-- anytime the server processes a notifiable event:
+- anytime the http server processes a notifiable event:
 	- create, persist notification
-	- check of recipient is connected. if so, push notification
+	- check of recipient is connected. if so, push notification from socket io
