@@ -60,7 +60,8 @@
 	- write this in a comment or a test
 - **use assertions, crash a program early**
 
-
-
 ## Topic 25 - assertive programming
 - **“Whenever you find yourself thinking “but of course that could never happen,” add code to check it”
+
+
+# 5 
