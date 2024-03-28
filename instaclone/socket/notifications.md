@@ -14,7 +14,13 @@
 	- - **user bio mention**: entity is user. links to the user profile
 	- **follow**:  links to user profile
 	- **post caption mention, comment mention or comment notification or like notification**: entity is post. all should link to the post. 
-- **entityId**: `string` (ID of the User or Post)
+- **entity**: {
+	- id: string,
+	- model: string
+- },
+- **originEntity**: the entity whose creation generated the notification.
+	- for likes, it is the like itself.
+	- for a comment, it is the comment
 - **contextType**: `photo | comment` (Defines the interaction context, if applicable)
 - **creatorId**: `string` (ID of the User who initiated the interaction)
 - **recipientId**: `string` (ID of the User receiving the notification)

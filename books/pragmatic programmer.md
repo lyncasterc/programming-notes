@@ -65,3 +65,29 @@
 
 
 # 5 
+## Topic 28 - decoupling
+- **Tell, Don't Ask**
+	- don't make decisions based on the internal state of an object and then update the object. TELL the object what to do for you.
+	- The first method below tries to find a customer's order and apply a discount to their total, but it exposes a lot of internals about totals and orders
+	- The second method is clear: find the order, apply the discount. The implementation is delegated to the objects. easier to change, cleaner, better encapsulation.
+		- (also semantically better. the customer should tell us what order. the order has a total and can apply its own discount)
+	```java
+		​public​ ​void​ applyDiscount(customer, order_id, discount) {​   
+			totals = customer
+				.orders​
+				.find(order_id)​
+				.getTotals();​   
+			totals.grandTotal = totals.grandTotal - discount;​   
+			totals.discount   = discount;​ 
+		}
+		
+		// TELLING 
+		public​ ​void​ applyDiscount(customer, order_id, discount) {​  
+			customer​
+				.findOrder(order_id)​
+				.applyDiscount(discount);​ 
+		 }
+
+	```
+
+- 
