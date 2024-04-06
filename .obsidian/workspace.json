@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tips & Tricks/vscode.md",
+                "file": "books/the-pragmatic-programmer/notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 286.5,
+    "collapsed": true
   },
   "right": {
     "id": "02cf76da6c549550",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tips & Tricks/vscode.md",
+                "file": "books/the-pragmatic-programmer/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tips & Tricks/vscode.md",
+                "file": "books/the-pragmatic-programmer/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tips & Tricks/vscode.md"
+                "file": "books/the-pragmatic-programmer/notes.md"
               }
             }
           },
@@ -177,31 +178,42 @@
   },
   "active": "f1cd01bb18f23f0f",
   "lastOpenFiles": [
-    "Tips & Tricks/JavaScript.md",
-    "Tips & Tricks/vscode.md",
-    "books/pragmatic programmer.md",
-    "instaclone/socket/notifications.md",
-    "instaclone/refresh token auth system.md",
-    "instaclone/mention system.md",
-    "instaclone/comments.md",
-    "instaclone/socket",
-    "instaclone/Untitled.md",
-    "Tips & Tricks/Git.md",
-    "metronome-beat-thing/metronome.md",
-    "open-source-contributions/responsively/feat-pinch-to-zoom.md",
-    "metronome-beat-thing",
-    "seccamv2/env-dev-setup.md",
-    "instaclone",
-    "open-source-contributions/Untitled.md",
-    "Untitled.md",
-    "seccamv2",
-    "Instaclone/5-add-post-features.md",
-    "Instaclone.md",
-    "Instaclone",
-    "open-source-contributions/responsively-app-test-profiles.md",
-    "chord-finder.md",
-    "get-requests.rest",
-    "boop.rest",
-    "boop.etst"
+    "books/the-pragmatic-programmer/node_modules/typescript/ThirdPartyNoticeText.txt",
+    "books/the-pragmatic-programmer/node_modules/typescript/LICENSE.txt",
+    "books/the-pragmatic-programmer/node_modules/typescript/lib/typescript.d.ts",
+    "books/the-pragmatic-programmer/node_modules/typescript/lib/tsserverlibrary.d.ts",
+    "books/the-pragmatic-programmer/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+    "books/the-pragmatic-programmer/node_modules/typescript/lib/lib.webworker.d.ts",
+    "books/the-pragmatic-programmer/node_modules/typescript/lib/lib.webworker.iterable.d.ts",
+    "books/the-pragmatic-programmer/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts",
+    "books/the-pragmatic-programmer/node_modules/typescript/lib/lib.scripthost.d.ts",
+    "books/the-pragmatic-programmer/node_modules/typescript/lib/lib.esnext.promise.d.ts",
+    "books/the-pragmatic-programmer/node_modules/typescript/lib/lib.esnext.object.d.ts",
+    "books/the-pragmatic-programmer/node_modules/typescript/SECURITY.md",
+    "books/the-pragmatic-programmer/node_modules/typescript/README.md",
+    "books/the-pragmatic-programmer/node_modules/ts-node/README.md",
+    "books/the-pragmatic-programmer/node_modules/diff/release-notes.md",
+    "books/the-pragmatic-programmer/node_modules/diff/CONTRIBUTING.md",
+    "books/the-pragmatic-programmer/node_modules/diff/README.md",
+    "books/the-pragmatic-programmer/node_modules/ts-node/dist-raw/README.md",
+    "books/the-pragmatic-programmer/node_modules/ts-node/dist-raw/NODE-LICENSE.md",
+    "books/the-pragmatic-programmer/node_modules/acorn/README.md",
+    "books/the-pragmatic-programmer/node_modules/acorn/CHANGELOG.md",
+    "books/the-pragmatic-programmer/node_modules/@cspotcode/source-map-support/README.md",
+    "books/the-pragmatic-programmer/node_modules/@jridgewell/trace-mapping/README.md",
+    "books/the-pragmatic-programmer/node_modules/@cspotcode/source-map-support/LICENSE.md",
+    "books/the-pragmatic-programmer/node_modules/@jridgewell/sourcemap-codec/README.md",
+    "books/the-pragmatic-programmer/node_modules/@jridgewell/resolve-uri/README.md",
+    "books/the-pragmatic-programmer/node_modules/acorn-walk/README.md",
+    "books/the-pragmatic-programmer/node_modules/acorn-walk/CHANGELOG.md",
+    "books/the-pragmatic-programmer/node_modules/arg/README.md",
+    "books/the-pragmatic-programmer/node_modules/make-error/README.md",
+    "books/the-pragmatic-programmer/node_modules/yn/readme.md",
+    "books/the-pragmatic-programmer/node_modules/create-require/README.md",
+    "books/the-pragmatic-programmer/node_modules/v8-compile-cache-lib/README.md",
+    "books/the-pragmatic-programmer/node_modules/@tsconfig/node16/README.md",
+    "books/the-pragmatic-programmer/node_modules/@tsconfig/node10/README.md",
+    "books/the-pragmatic-programmer/node_modules/@tsconfig/node12/README.md",
+    "Pasted image 20240403000415.png"
   ]
 }

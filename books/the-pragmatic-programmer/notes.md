@@ -90,4 +90,42 @@
 
 	```
 
-- 
+- ## Topic 29
+	- **Events** - availability of information
+		- like user clicking on button, a search finishing, etc
+	- **software patterns in event-driven programs**
+		- **Finite State Machines**
+			- **state machines** - a specification on how to handle events
+				- has finite number of states, including current state, and events related to that state
+				- can be in exactly one of the states at any given time
+				- **events are inputs that can trigger a transition to another state**.
+				- 
+				- ![[Pasted image 20240403000415.png]]
+					- in this state machine, there are 4 events. 
+					- ex: If were are in initial state and receive a header event, we can transition to reading state.  
+					 ex: if we are reading and receive data event, we continue reading. 
+			```js
+			const TRANSITIONS = { 
+				initial: { header: 'reading' }, 
+				reading: { data: 'reading', trailer: 'done' }, 
+			};
+				
+			let state = 'initial';
+			
+			while (state !== 'done' && state !== 'error') { 
+				// Assume this function is implemented
+				const msg = get_next_message();    
+				
+				if (TRANSITIONS[state] && TRANSITIONS[state][msg.msg_type]) {  
+				   state = TRANSITIONS[state][msg.msg_type];   
+				} else {
+				     state = 'error';   
+				 } 
+			}
+			```
+		- **observer pattern**
+			- **observables**: events/state changes that can be "observed"
+			- **observers**: clients that are interested in the events.
+			- **subject**: maintain the list of observers. when an event/state change occurs, it calls the observers' methods.
+			- this pattern allows an object to notify other objects in a more loosely coupled fashion.
+			
