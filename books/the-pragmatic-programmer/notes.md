@@ -59,11 +59,9 @@
 	- state the input range, boundaries, what the code will and will not do
 	- write this in a comment or a test
 - **use assertions, crash a program early**
-
+	- don't try to catch everything especially if you can't fix what caused the error.
 ## Topic 25 - assertive programming
 - **“Whenever you find yourself thinking “but of course that could never happen,” add code to check it”
-
-
 # 5 
 ## Topic 28 - decoupling
 - **Tell, Don't Ask**
@@ -128,4 +126,18 @@
 			- **observers**: clients that are interested in the events.
 			- **subject**: maintain the list of observers. when an event/state change occurs, it calls the observers' methods.
 			- this pattern allows an object to notify other objects in a more loosely coupled fashion.
-			
+		- **publish/subscribe**
+			- **publishers**: emit messages to channels, not aware of subscribers
+			- **subscribers**: register to channels
+			- in this way, the subject does not directly communicate with subscribers
+			- reminds me alot of socket.io with channels/rooms
+				- or like discord's design
+		- **reactive programming**
+			- **streams**: sequence of ongoing events. a list of events
+
+## Topic 30
+- **programs transform data, taking input and converting it into an output.**
+	- I think we forget this because so much of that has been abstracted especially in higher-level languages.
+	- **think about code as a series of nested transformations**
+- easy way to think about that is the **top-down** approach:
+	- start with the requirements, the inputs you need, the outputs and what steps will take you from that input to the output.
