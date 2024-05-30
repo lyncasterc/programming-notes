@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "singleton",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,16 +175,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9269b0a27d66e66a",
+  "active": "61348400a6d8a93b",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Tips & Tricks/PUT vs. POST vs. PATCH.md",
+    "Tips & Tricks/JavaScript.md",
     "spring/chad darby spring notes.md",
+    "Untitled.md",
     "spring",
     "Tips & Tricks/Git.md",
-    "Tips & Tricks/PUT vs. POST vs. PATCH.md",
     "Pasted image 20240403000415.png",
     "Tips & Tricks/vscode.md",
-    "Tips & Tricks/JavaScript.md",
     "books/the-pragmatic-programmer/notes.md",
     "books/the-pragmatic-programmer/i",
     "books/the-pragmatic-programmer/node_modules/typescript/ThirdPartyNoticeText.txt",

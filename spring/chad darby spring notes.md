@@ -71,3 +71,22 @@ public class MyService {
 ## Java Config
 - uses @Configuration and @Bean annotations
 - useful for more complex beans, external third party class that you want to use as bean
+
+## DAO
+- Data Access Object
+- interface between application code and database
+
+## Spring MVC
+- **Controller**
+	- handles the request from clients, retrieves/stores data
+	- places data in the model
+	- returns the appropriate view.
+- **Model**
+	- representation of the application data
+	- POJOS, entities
+- **View**
+	- renders the UI
+	- uses templating tech like JSP or Thymeleaf
+
+- **data binding**:
+	- binding HTTP request params/payload to Java objects.
